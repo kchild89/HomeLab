@@ -1,7 +1,11 @@
+# 🧰 Kevin’s Home Lab Build
+
 ## 🗄️ Rack Cabinet
 
-- **Model:** GeeekPi 8U 10-inch Server Cabinet
-- **Rack Type:** DeskPi RackMate T1
+**Model:** GeeekPi 8U 10-inch Server Cabinet  
+**Type:** DeskPi RackMate T1
+
+---
 
 ## 🧠 Motherboard Bundle
 
@@ -11,37 +15,51 @@
 - **Storage Support:**
   - 6× SATA 3.0 via dual SFF-8643 (JMB585)
   - 6× M.2 NVMe slots
-- **RAM Slot:** 1× DDR5 SO-DIMM
-- **Cooling:** JONSBO-HP 400S included
+- **Memory Slot:** 1× DDR5 SO-DIMM
+- **Cooling:** JONSBO-HP 400S
+
+---
 
 ## 🧬 RAM
 
 - **Model:** Crucial 32GB DDR5 SODIMM Kit (2×16GB)
-- **Speed:** 5600/5200/4800MHz
-- **Part Number:** CT2K16G56C46S5
+- **Speeds Supported:** 5600/5200/4800MHz
+- **Part #:** CT2K16G56C46S5
+
+---
 
 ## 💾 Boot Drive
 
 - **Model:** Crucial P3 Plus 1TB PCIe Gen4 NVMe M.2 SSD
 - **Speed:** Up to 5000MB/s
-- **Part Number:** CT1000P3PSSD8
+- **Part #:** CT1000P3PSSD8
+
+---
 
 ## 🔌 Power Supply
 
 - **Model:** Corsair SF600
-- **Type:** 600W 80+ Gold Certified SFX PSU
+- **Wattage:** 600W
+- **Rating:** 80+ Gold Certified
+- **Form Factor:** SFX
 - **Cabling:** Fully Modular
 
-## 🖥️ Rack Monitor
+---
+
+## 🖥️ Rack Display
 
 - **Model:** GeeekPi 7.84" LCD Touch Screen
-- **Resolution:** 1280x400
-- **Rack Unit:** 2U mountable for DeskPi RackMate T1
+- **Resolution:** 1280×400
+- **Mount:** 2U rackmount (DeskPi RackMate T1)
+
+---
 
 ## 🌐 Networking
 
-- **Patch Panel:** GeeekPi 12-Port 0.5U CAT6 Patch Panel
-- **Keystone Couplers:** iwillink RJ45 Cat6 (25-Pack, Blue, UTP, Female-to-Female)
+- **Patch Panel:** GeeekPi 12-Port 0.5U CAT6
+- **Couplers:** iwillink RJ45 Cat6 Keystone (25-Pack, Blue, UTP, Female-to-Female)
+
+---
 
 ## 🍓 Raspberry Pi 5 Setup
 
@@ -55,11 +73,15 @@
 
 ### 🔧 Proxmox VE
 
-- **Virtualization Platform**
-- **Running Services:**
-  - **Glances** (system monitoring)
-  - **Jellyfin** (media server with HW acceleration)
+- Virtualization Host
+- **Running:**
+  - `glances` (system monitoring)
+  - `jellyfin` (media server w/ HW acceleration)
 
 ### 🛡️ Raspberry Pi 5
 
-- **Service:** Pi-hole (network-wide ad blocking)
+- **Running:** `Pi-hole` (network-wide DNS ad blocking)
+
+---
+
+> Maintained by Kevin | 📅 Last updated: June 2025
